@@ -3,6 +3,7 @@ import { fetchData } from "./api";
 import Cards from "./components/Cards/Cards";
 import CountryPicker from "./components/CountryPicker/CountryPicker";
 import Chart from "./components/Chart/Chart";
+import LastUpdate from "./components/LastUpdate"
 import styles from "./App.module.css";
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
 
     return (
       <div className={styles.container}>
+        <LastUpdate data={data} />
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
