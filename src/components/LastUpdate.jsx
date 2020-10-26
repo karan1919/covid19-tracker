@@ -3,9 +3,7 @@ import { Typography } from "@material-ui/core";
 
 const LastUpdate = ({ data: { lastUpdate } }) => {
   return (
-    <Typography>
-      <p> Last update: {new Date(lastUpdate).toDateString()} </p>
-    </Typography>
+    <Typography>Last update: {new Date(lastUpdate).toDateString()}</Typography>
   );
 };
 
