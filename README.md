@@ -1,2 +1,2 @@
 Try it on CodeSandbox!
-https://codesandbox.io/s/covid19-tracker-2coiy
+https://codesandbox.io/s/covid-19tracker-1o3xp
