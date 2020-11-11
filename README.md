@@ -1,2 +1,2 @@
-Try it on CodeSandbox!
-https://codesandbox.io/s/covid-19tracker-1o3xp
+Try it!
+https://karan1919.github.io/covid19-tracker
